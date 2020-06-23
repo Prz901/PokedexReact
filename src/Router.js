@@ -9,7 +9,7 @@ export default (props) => {
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/banana" component={Kanto} />
+                <Route exact path="/kanto" component={Kanto} />
                 <Route exact path="/:nome" component={() => <div>algumavcdwvq</div>} />
             </Switch>
         </BrowserRouter>
