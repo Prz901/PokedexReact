@@ -48,7 +48,7 @@ export default () => {
   async function fetchPokemons() {
     const pokemonList = [];
 
-    for (let i = 1; i <= 151; i++) {
+    for (let i = 494; i <= 649; i++) {
       const response = api.get(`pokemon/${i}`);
       pokemonList.push(response);
     }
@@ -75,11 +75,9 @@ export default () => {
         <div className="container">
           <PokemonBody>
             <Title>
-              <h1>Kanto Pokedex</h1>
+              <h1>Unova Pokedex</h1>
               <p>
-                Essa pokedex representa todos os 151 pokemons dos primeiros
-                jogos Pokemon que foram o <strong>Yellow&Red-Blue</strong> e seu
-                remakes <strong>FireRed&LeafGreen.</strong>
+                Essa pokedex representa a quinta geração de pokemons e todos seus pokemons estão listados abaixo.
               </p>
             </Title>
             <PokemonList>

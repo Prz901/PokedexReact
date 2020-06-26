@@ -30,19 +30,19 @@ const Home = () => {
                             <Link className="link" to="/johto"> Johto </Link>
                         </li>
                         <li>
-                            <Link className="link" to="/johto"> Hoen </Link>
+                            <Link className="link" to="/Hoen"> Hoen </Link>
                         </li>
                         <li>
-                            <Link className="link" to="/johto"> Sinnoh </Link>
+                            <Link className="link" to="/Sinnoh"> Sinnoh </Link>
                         </li>
                         <li>
-                            <Link className="link" to="/johto"> Unova </Link>
+                            <Link className="link" to="/Unova"> Unova </Link>
                         </li>
                         <li>
-                            <Link className="link" to="/johto"> Kalos </Link>
+                            <Link className="link" to="/Kalos"> Kalos </Link>
                         </li>
                         <li>
-                            <Link className="link" to="/johto"> Alola </Link>
+                            <Link className="link" to="/Alola"> Alola </Link>
                         </li>
                     </ListOfPokedex>
                 </List>
