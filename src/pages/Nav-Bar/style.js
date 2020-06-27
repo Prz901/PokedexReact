@@ -3,19 +3,17 @@ import styled from "styled-components";
 export const Header = styled.div`
   height: 100px;
   background-color: #202020;
-  width:100%;
+  width: 100%;
 `;
 
 export const Nav = styled.div`
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    // transform:translateY(-50%);
-  }
-
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  position:absolute;
+  transform:translateY(-50%);
+  width:1280px;
+  a {
     font-size: 16px;
     color: white;
     text-align: center;
@@ -23,58 +21,47 @@ export const Nav = styled.div`
     text-decoration: none;
   }
 
-  /* The dropdown container */
   .dropdown {
-    float: left;
-    overflow: hidden;
+    position:relative;
+    .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+      a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: flex;
+        text-align: left;
+
+        &:hover {
+          background-color: #ddd;
+        }
+      }
+    }
+    &:hover .dropdown-content {
+      display: block;
+    }
   }
 
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-    
-  }
+  // /* Add a red background color to navbar links on hover */
+  // .navbar a:hover,
+  // .dropdown:hover .dropbtn {
+  //   background-color: red;
+  // }
 
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover,
-  .dropdown:hover .dropbtn {
-    background-color: red;
-  }
 
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 `;

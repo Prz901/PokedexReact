@@ -10,7 +10,6 @@ export default () => {
       <Header></Header>
       <div className="container">
         <Nav>
-          <div className="navbar">
             <div className="dropdown">
               <button className="dropbtn">
                 Pokedexes
@@ -28,7 +27,6 @@ export default () => {
             </div>
             <Link to="/"> Home </Link>
             <a href="#">Saiba Mais</a>
-          </div>
         </Nav>
       </div>
     </>

@@ -67,6 +67,10 @@ export const Pokemon = styled.div`
   }
   .pokemon-types {
     font-size: 14px;
+
+    span{
+      margin-right:3px;
+    }
   }
 
   .pokemon-name a{

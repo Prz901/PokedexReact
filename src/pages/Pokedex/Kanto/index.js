@@ -29,7 +29,9 @@ const PokemonCard = ({ pokemon }) => {
 
         <p className="pokemon-id">{id}</p>
         <p className="pokemon-name"> <a href ={`https://pokemondb.net/pokedex/${name}`}>{name}</a> </p>
-        <p className="pokemon-types">{types[0].type.name}</p>
+        <p className="pokemon-types">{types.map((type) =>{
+          return <span>{type.type.name}</span>
+        })}</p>
       </Pokemon>
     </>
   );
@@ -77,9 +79,7 @@ export default () => {
             <Title>
               <h1>Kanto Pokedex</h1>
               <p>
-                Essa pokedex representa todos os 151 pokemons dos primeiros
-                jogos Pokemon que foram o <strong>Yellow&Red-Blue</strong> e seu
-                remakes <strong>FireRed&LeafGreen.</strong>
+                Essa pokedex representa a primeira geração de pokemons e todos estão listados abaixo.
               </p>
             </Title>
             <PokemonList>
