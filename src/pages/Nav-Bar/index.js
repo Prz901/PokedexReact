@@ -26,7 +26,7 @@ export default () => {
               </div>
             </div>
             <Link to="/"> Home </Link>
-            <a href="#">Saiba Mais</a>
+            <a href="https://www.linkedin.com/in/felipe-perozo-costa-122a0a159/">Saiba Mais</a>
         </Nav>
       </div>
     </>
