@@ -16,6 +16,7 @@ export default () => {
                 <i className="fa fa-caret-down"></i>
               </button>
               <div className="dropdown-content">
+                <Link to="/national-dex">National-Dex</Link>
                 <Link to="/kanto">Kanto</Link>
                 <Link to="/johto"> Johto </Link>
                 <Link to="/Hoen"> Hoen </Link>

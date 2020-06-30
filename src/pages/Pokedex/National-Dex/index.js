@@ -9,7 +9,7 @@ import {
   Pokemon,
   Title,
   Background
-} from "./style.js";
+} from "./style";
 
 import NavBar from "../../Nav-Bar";
 
@@ -50,7 +50,7 @@ export default () => {
   async function fetchPokemons() {
     const pokemonList = [];
 
-    for (let i = 387; i <= 493; i++) {
+    for (let i = 1; i <= 807; i++) {
       const response = api.get(`pokemon/${i}`);
       pokemonList.push(response);
     }
@@ -77,14 +77,14 @@ export default () => {
         <div className="container">
           <PokemonBody>
             <Title>
-              <h1>Sinnoh Pokedex</h1>
+              <h1>National Pokedex</h1>
               <p>
-                Essa pokedex representa a quarta geração de pokemons e todos seus pokemons estão listados abaixo.
+                Essa pokedex representa todos os pokemons da primeira ate a setima geração salvo os meltan e Melmetal que pertencem a setima geração porem ainda nao foram registrados na API. .
               </p>
             </Title>
             <PokemonList>
-              {pokemons.map((pokemon,index) => (
-                <PokemonCard key={index} pokemon={pokemon} />
+              {pokemons.map((pokemon, index)  => (
+                <PokemonCard  key={index} pokemon={pokemon}/>
               ))}
             </PokemonList>
           </PokemonBody>

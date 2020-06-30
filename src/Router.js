@@ -9,19 +9,21 @@ import Sinnoh from './pages/Pokedex/Sinnoh'
 import Unova from './pages/Pokedex/Unova'
 import Kalos from './pages/Pokedex/Kalos'
 import Alola from './pages/Pokedex/Alola'
+import NationalDex from './pages/Pokedex/National-Dex'
 
 export default (props) => {
     return (
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/National-Dex" component={NationalDex} />                
                 <Route exact path="/kanto" component={Kanto} />
                 <Route exact path="/Johto" component={Johto} />
                 <Route exact path="/Hoen" component={Hoen} />
                 <Route exact path="/Sinnoh" component={Sinnoh} />
                 <Route exact path="/Unova" component={Unova} />
                 <Route exact path="/Kalos" component={Kalos} />
-                <Route exact path="/Alola" component={Alola} />
+                <Route exact path="/Alola" component={Alola} />                
                 <Route exact path="/*" component={() => <div>WRONG PATH</div>} />
             </Switch>
         </BrowserRouter>

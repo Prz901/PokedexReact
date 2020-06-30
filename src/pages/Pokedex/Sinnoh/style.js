@@ -78,4 +78,7 @@ export const Pokemon = styled.div`
   .pokemon-name a:hover{
       color:coral;
   }
+  span{
+    margin-right:3px;
+  }
 `;

@@ -29,8 +29,8 @@ const PokemonCard = ({ pokemon }) => {
 
         <p className="pokemon-id">{id}</p>
         <p className="pokemon-name"> <a href ={`https://pokemondb.net/pokedex/${name}`}>{name}</a> </p>
-        <p className="pokemon-types">{types.map((type) =>{
-          return <span>{type.type.name}</span>
+        <p className="pokemon-types">{types.map((type, index) =>{
+          return <span key={index}>{type.type.name}</span>
         })}</p>
       </Pokemon>
     </>
@@ -83,8 +83,8 @@ export default () => {
               </p>
             </Title>
             <PokemonList>
-              {pokemons.map((pokemon) => (
-                <PokemonCard pokemon={pokemon} />
+              {pokemons.map((pokemon, index) => (
+                <PokemonCard key={index} pokemon={pokemon} />
               ))}
             </PokemonList>
           </PokemonBody>
