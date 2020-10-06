@@ -41,45 +41,21 @@ export const PokemonBody = styled.div`
   flex-direction: column;
 `;
 
+// export const PokemonList = styled.div`
+//   display: grid;
+//   gap: 2rem;
+//   grid-gap: 2rem;
+//   grid-auto-flow: row;
+//   grid-template-columns: repeat(11, minmax(0, 1fr));
+
+//   background:gray;
+
+//   padding: 2rem;
+// `;
+
 export const PokemonList = styled.div`
-  display: grid;
-  gap: 2rem;
-  grid-gap: 2rem;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(11, minmax(0, 1fr));
-
-  padding: 2rem;
-`;
-
-export const Pokemon = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:flex;
+  flex-wrap:wrap;
   justify-content: center;
-
-  .pokemon-id {
-    font-size: 14px;
-    color: #737373;
-  }
-  .pokemon-name {
-    color: #2769be;
-    font-size: 16px;
-  }
-  .pokemon-types {
-    font-size: 14px;
-
-    span{
-      margin-right:3px;
-    }
-  }
-
-  .pokemon-name a{
-    color: #2769be;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  .pokemon-name a:hover{
-      color:coral;
-  }
-`;
+  padding:20px 0px;
+`

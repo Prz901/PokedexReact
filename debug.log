@@ -12,3 +12,74 @@
 [0629/213832.258:ERROR:crash_report_database_win.cc(428)] unexpected header
 [0629/215138.221:ERROR:crash_report_database_win.cc(428)] unexpected header
 [0629/221258.860:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1004/000934.810:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1004/131336.815:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/121409.625:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/122409.639:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/122409.639:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/122909.630:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/124409.636:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/125909.641:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/131409.645:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/132909.659:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/134409.673:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/135909.680:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/141409.683:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/142909.695:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/144409.701:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/145909.710:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/151409.726:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/152909.732:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/154409.746:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/155909.753:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/161409.753:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/162909.753:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/164409.768:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/165909.777:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/171409.782:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/172909.785:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/174409.797:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/175909.808:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/181409.820:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/182909.831:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/184409.840:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/185909.854:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/191409.858:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/192909.863:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/194409.871:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/195909.874:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/201409.889:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/202909.895:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/204409.906:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/205909.910:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/211409.912:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/212909.920:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/214409.921:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/215909.934:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/221409.949:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/222909.955:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/224409.970:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/225909.971:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/231409.982:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/232909.994:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/234410.008:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1005/235910.018:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1006/000416.383:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.261:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.261:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.573:ERROR:exception_snapshot_win.cc(99)] thread ID 14500 not found in process
+[1006/000416.376:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.413:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.573:ERROR:exception_snapshot_win.cc(99)] thread ID 2232 not found in process
+[1006/000416.573:ERROR:exception_snapshot_win.cc(99)] thread ID 13388 not found in process
+[1006/000416.376:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.573:ERROR:exception_snapshot_win.cc(99)] thread ID 14180 not found in process
+[1006/000416.261:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.371:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.573:ERROR:exception_snapshot_win.cc(99)] thread ID 14056 not found in process
+[1006/000416.573:ERROR:exception_snapshot_win.cc(99)] thread ID 7672 not found in process
+[1006/000416.573:ERROR:exception_snapshot_win.cc(99)] thread ID 12536 not found in process
+[1006/000416.574:ERROR:exception_snapshot_win.cc(99)] thread ID 3884 not found in process
+[1006/000416.261:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[1006/000416.623:ERROR:exception_snapshot_win.cc(99)] thread ID 15020 not found in process
+[1006/121511.289:ERROR:crash_report_database_win.cc(428)] unexpected header

@@ -5,19 +5,19 @@ import pokeball from '../../assests/Pokeball.png'
 
 import { Link } from 'react-router-dom'
 
-import { Container, Header, Body, List, ListOfPokedex } from './style.js'
+import { Container, Header, Body, List, ListOfPokedex, Background } from './style.js'
 
 const Home = () => {
     return (
         <Container>
             <Header>
-                <img src={pokeball} alt="pokeball" />
-                <h1 >Pokedex Pokemon Site</h1>
+                {/* <img src={pokeball} alt="pokeball" /> */}
                 <img src={scizor} alt="scizor pokemon" />
+                <h1 >Pokedex Site</h1>
             </Header>
             <Body>
                 <p >Este é um site feito em React para treino e com uso de uma api gratuita visando apenas o conhecimento e o aprendizado de fazer um projeto React totalmente do zero.</p>
-                <p >Link para as Pokedexes - Clique para abri qual pokedex voce quer </p>
+                <h2 >Link para as Pokedexes - Clique para abri qual pokedex voce quer </h2>
                 <List>
                     <ListOfPokedex>
                         <li>

@@ -40,16 +40,12 @@ export const PokemonBody = styled.div`
   align-items: center;
   flex-direction: column;
 `;
-
 export const PokemonList = styled.div`
-  display: grid;
-  gap: 2rem;
-  grid-gap: 2rem;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(11, minmax(0, 1fr));
-
-  padding: 2rem;
-`;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding:20px 0px;
+`
 
 export const Pokemon = styled.div`
   display: flex;

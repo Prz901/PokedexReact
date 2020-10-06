@@ -29,7 +29,6 @@ export const Background = styled.div`
     background-color: #727272;
     background-image: repeating-linear-gradient(-45deg, #6a6a6a 0, #6a6a6a 2px, #727272 2px, #727272 11px);
     width:100%;
-}
 `;
 export const Load = styled.p``;
 
@@ -42,14 +41,11 @@ export const PokemonBody = styled.div`
 `;
 
 export const PokemonList = styled.div`
-  display: grid;
-  gap: 2rem;
-  grid-gap: 2rem;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(11, minmax(0, 1fr));
-
-  padding: 2rem;
-`;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding:20px 0px;
+`
 
 export const Pokemon = styled.div`
   display: flex;
