@@ -22,7 +22,7 @@ export default function PokemonCard({ pokemon }) {
     ground: '#bf9926',
     fighting: '#a84d3d',
     electric: '#eed535',
-    steel: 'lightsteelblue',
+    steel: '#8e8ea4',
     ice: '#0af',
     dragon: '#4e38e9',
     rock: '#a59249',
