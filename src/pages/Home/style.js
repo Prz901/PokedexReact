@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
     background-color: #727272;
     background-image: repeating-linear-gradient(-45deg, #6a6a6a 0, #6a6a6a 2px, #727272 2px, #727272 11px);
 `;
@@ -14,6 +10,7 @@ export const Header = styled.div`
   justify-content: center;
   align-items:center;
   background:#202020;
+  margin-bottom:30px;
 
   > h1 {
     font-size: 45px;
@@ -30,65 +27,87 @@ export const Header = styled.div`
   }
 
   img {
-    width: 300px;
-    height:300px;
+    width:250px;
+    height:250px;
   }
 `;
+
 export const Body = styled.div`
-  display: flex;
-  flex-direction: column;
+  width: 60%;
+  margin: 0px auto;
+  display:flex;
+  flex-direction:column;
   background:white;
-  margin:auto;
-  border-radius: 10px;
+  border-radius:10px;
+`
 
+export const BodyTitle = styled.div`
+  display:flex;
+  justify-content:center;
+  padding: 20px 0px;
 
-  p, h2 {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 10px;
+  h1 {
+    font-size:30px;
+    letter-spacing:2px;
+    border-bottom: 3px solid lightgray;
+    font-weight:700;
   }
+`
+
+export const BodyContent = styled.div`
+  padding: 0px 40px;
 
   p {
-    font-size: 18px;
-
+    font-size: 19px;
+    color:#404040;
+    font-weight:300;
+    padding:40px 0px;
   }
-  h2 {
-    font-size: 20px;
-    font-weight:bold;
-    letter-spacing:0.025;
+
+  .titles {
+    font-size:25px;
+    font-weight:600;
   }
-`;
+`
 
-export const List = styled.div`
-  display: flex;
-  justify-content: center;
-  font-size: 17px;
-`;
+export const BodyPokedex = styled.div`
+  display:flex;
+  width:100%;
 
-export const ListOfPokedex = styled.ul`
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: 400px;
+`
+export const ListOfPokedex = styled.div`
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  margin-left:100px;
+  padding:30px 0px;
 
-    li{
-        display: flex;
-        width: 100%;
-        margin-bottom: 8px;
+  .link {
+    font-weight:500;
+    color:#2769be;
+    padding:10px 5px;
+    border:1px solid ;
+    width:30%;
+    display:flex;
+    justify-content:center;
+    margin:8px;
+    transition:0.9s;
+  }
+  .h2-link {
+    font-weight:500;
+    color:black;
+    padding:10px 5px;
+    width:30%;
+    display:flex;
+    justify-content:center;
+    margin:8px;
+    font-size:20px;
+  }
 
-    }
-    .link{
-        width: 100%;
-        text-align: center;
-        padding: 16px 0;
+  .link:hover{
+    background: #ff0000;
+    color:white;
+    border:1px solid black;
+  }
 
-        background-color: lightgray;
-        color: rgb(78, 77, 77);
-    }
-
-    .link:hover{
-        background-color: lightcoral;
-        color: white;
-    }
-`;
+`
