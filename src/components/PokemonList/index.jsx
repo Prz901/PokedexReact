@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import api from "../../services/api";
 
-import { PokemonList, Load } from "./style";
+import { PokemonList, Load, ContentLoad } from "./style";
 import PokemonCard from "../PokemonCard/PokemonCard";
 
 export default ({ startPoke, endPoke }) => {
@@ -36,10 +36,12 @@ export default ({ startPoke, endPoke }) => {
 
   if (isLoad) {
     return (
-      <Load
-        src="https://c.tenor.com/fSsxftCb8w0AAAAi/pikachu-running.gif"
-        alt="pikachu running"
-      />
+      <ContentLoad>
+        <Load
+          src="https://c.tenor.com/fSsxftCb8w0AAAAi/pikachu-running.gif"
+          alt="pikachu running"
+        />
+      </ContentLoad>
     );
   }
 

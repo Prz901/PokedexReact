@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Footer = styled.div`
   width:100%;
   background:#202020;
-  margin-top:30px;
+
 `
 
 export const FooterContent = styled.div`

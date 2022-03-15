@@ -40,6 +40,8 @@ export const Body = styled.div`
   background:white;
   border-radius:10px;
   margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 100vh;
 `
 
 export const BodyTitle = styled.div`
@@ -78,7 +80,6 @@ export const BodyPokedex = styled.div`
 `
 export const ListOfPokedex = styled.div`
   display:flex;
-  flex-direction:column;
   align-items:flex-start;
   margin-left:100px;
   padding:30px 0px;
@@ -87,12 +88,9 @@ export const ListOfPokedex = styled.div`
     font-weight:500;
     color:#2769be;
     padding:10px 5px;
-    border:1px solid ;
     width:30%;
     display:flex;
     justify-content:center;
-    margin:8px;
-    transition:0.9s;
   }
   .h2-link {
     font-weight:500;
@@ -106,9 +104,8 @@ export const ListOfPokedex = styled.div`
   }
 
   .link:hover{
-    background: #ff0000;
-    color:white;
-    border:1px solid black;
-  }
+    text-decoration: underline;
 
+    color:lightcoral;
+  }
 `

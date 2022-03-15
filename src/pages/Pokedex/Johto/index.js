@@ -1,6 +1,7 @@
 import React from "react";
 
 import PokemonList from "../../../components/PokemonList/index.jsx";
+import FooterPage from "../../../components/Footer/index.jsx";
 
 import {
   Container,
@@ -28,6 +29,7 @@ export default () => {
           </PokemonBody>
         </div>
       </Background>
+      <FooterPage />
     </Container>
   );
 };

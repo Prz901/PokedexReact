@@ -1,6 +1,7 @@
 import React from "react";
 
 import PokemonList from "../../../components/PokemonList";
+import FooterPage from "../../../components/Footer";
 
 import {
   Container,
@@ -26,6 +27,7 @@ export default () => {
           </PokemonBody>
         </div>
       </Background>
+      <FooterPage />
     </Container>
     </>
   );

@@ -30,6 +30,7 @@ export const Background = styled.div`
     background-image: repeating-linear-gradient(-45deg, #6a6a6a 0, #6a6a6a 2px, #727272 2px, #727272 11px);
     width:100%;
     min-height: 100vh;
+    
 `;
 
 export const PokemonBody = styled.div`
@@ -39,6 +40,7 @@ export const PokemonBody = styled.div`
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 10px;
 `;
 

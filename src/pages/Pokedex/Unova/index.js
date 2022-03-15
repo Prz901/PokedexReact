@@ -2,7 +2,6 @@ import React from "react";
 
 import PokemonList from "../../../components/PokemonList";
 
-
 import {
   Container,
   PokemonBody,
@@ -11,8 +10,6 @@ import {
 } from "./style.js";
 
 import NavBar from "../../Nav-Bar";
-
-
 
 export default () => {
   return (

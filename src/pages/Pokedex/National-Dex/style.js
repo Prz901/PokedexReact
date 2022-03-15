@@ -39,6 +39,7 @@ export const PokemonBody = styled.div`
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 10px;
 `;
 
