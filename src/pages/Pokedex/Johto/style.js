@@ -29,9 +29,8 @@ export const Background = styled.div`
     background-color: #727272;
     background-image: repeating-linear-gradient(-45deg, #6a6a6a 0, #6a6a6a 2px, #727272 2px, #727272 11px);
     width:100%;
-}
+    min-height: 100vh;
 `;
-export const Load = styled.p``;
 
 export const PokemonBody = styled.div`
   background-color: white;
@@ -39,6 +38,8 @@ export const PokemonBody = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
+  border-radius: 10px;
 `;
 
 export const PokemonList = styled.div`
@@ -47,35 +48,3 @@ export const PokemonList = styled.div`
   justify-content: center;
   padding:20px 0px;
 `
-
-export const Pokemon = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  .pokemon-id {
-    font-size: 14px;
-    color: #737373;
-  }
-  .pokemon-name {
-    color: #2769be;
-    font-size: 16px;
-  }
-  .pokemon-types {
-    font-size: 14px;
-  }
-
-  .pokemon-name a{
-    color: #2769be;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  .pokemon-name a:hover{
-      color:coral;
-  }
-  span{
-    margin-right:3px;
-  }
-`;

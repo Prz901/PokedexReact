@@ -33,12 +33,13 @@ export const Header = styled.div`
 `;
 
 export const Body = styled.div`
-  width: 60%;
+  width: 67.2%;
   margin: 0px auto;
   display:flex;
   flex-direction:column;
   background:white;
   border-radius:10px;
+  margin-top: 50px;
 `
 
 export const BodyTitle = styled.div`

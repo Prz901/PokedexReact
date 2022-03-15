@@ -29,8 +29,8 @@ export const Background = styled.div`
     background-color: #727272;
     background-image: repeating-linear-gradient(-45deg, #6a6a6a 0, #6a6a6a 2px, #727272 2px, #727272 11px);
     width:100%;
+    min-height: 100vh;
 `;
-export const Load = styled.p``;
 
 export const PokemonBody = styled.div`
   background-color: white;
@@ -38,6 +38,8 @@ export const PokemonBody = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
+  border-radius: 10px;
 `;
 
 export const PokemonList = styled.div`

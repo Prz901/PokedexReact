@@ -1,31 +1,26 @@
 import React from 'react';
-
-import scizor from '../../assests/scizor.png'
-
 import { Link } from 'react-router-dom'
 
-import { Container, Header, Body, BodyTitle, BodyContent, ListOfPokedex } from './style.js'
+import { Container, Body, BodyTitle, BodyContent, ListOfPokedex } from './style.js'
 
+import NavBar from '../Nav-Bar/index.js';
 import FooterComponent from '../../components/Footer'
 
 const Home = () => {
     return (
         <Container>
-            <Header>
-                <img src={scizor} alt="scizor pokemon" />
-                <h1 >Pokedex Site</h1>
-            </Header>
+            <NavBar />
             <Body>
                 <BodyTitle>
-                    <h1>Pokedexes Pokemon</h1>
+                    <h1>Pokedéx Pokemon</h1>
                 </BodyTitle>
                 <BodyContent>
                     <p>Este é um site feito em React para treino e com uso de uma api gratuita visando apenas o conhecimento e o aprendizado de fazer um projeto React totalmente do zero.</p>
                     <BodyTitle>
-                        <h2 className='titles'>Todas as Pokedex estão listadas abaixo!</h2>
+                        <h2 className='titles'>Todas as Pokedéx estão listadas abaixo!</h2>
                     </BodyTitle>
                     <ListOfPokedex>
-                        <h2 className='h2-link'>Pokedexes</h2>
+                        <h2 className='h2-link'>Pokedéx</h2>
                         <Link className="link" to="/national-dex">National Dex </Link>
                         <Link className="link" to="/kanto"> Kanto </Link>
                         <Link className="link" to="/johto"> Johto </Link>

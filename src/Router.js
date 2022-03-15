@@ -9,11 +9,12 @@ import Sinnoh from './pages/Pokedex/Sinnoh'
 import Unova from './pages/Pokedex/Unova'
 import Kalos from './pages/Pokedex/Kalos'
 import Alola from './pages/Pokedex/Alola'
+import SwordShield from './pages/Pokedex/SwordShield'
 import NationalDex from './pages/Pokedex/National-Dex'
 
 import Home2 from './pages/Home2'
 
-export default (props) => {
+export default () => {
     return (
         <BrowserRouter>
             <Switch>
@@ -27,6 +28,7 @@ export default (props) => {
                 <Route exact path="/Unova" component={Unova} />
                 <Route exact path="/Kalos" component={Kalos} />
                 <Route exact path="/Alola" component={Alola} />
+                <Route exact path="/Sword-shield" component={SwordShield} />
 
                 <Route exact path="/*" component={() => <div>WRONG PATH</div>} />
             </Switch>
