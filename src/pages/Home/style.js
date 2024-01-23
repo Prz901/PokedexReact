@@ -52,19 +52,24 @@ export const BodyTitle = styled.div`
   h1 {
     font-size:30px;
     letter-spacing:2px;
-    border-bottom: 3px solid lightgray;
+    /* border-bottom: 3px solid lightgray; */
     font-weight:700;
   }
 `
 
 export const BodyContent = styled.div`
   padding: 0px 40px;
+  height: 100vh;
 
   p {
-    font-size: 19px;
+    font-size: 16px;
     color:#404040;
     font-weight:300;
     padding:40px 0px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    width: 95%;
+    margin: auto;
   }
 
   .titles {
@@ -109,3 +114,22 @@ export const ListOfPokedex = styled.div`
     color:lightcoral;
   }
 `
+
+export const Notification = styled.div`
+  width: 98%;
+  margin: auto;
+  /* background: #D1D0CE; */
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+`
+
+export const Content = styled.span`
+  display: block;
+  height: 12%;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 4px;
+  line-height: 1.6;
+  text-align:justify;
+`
+
+

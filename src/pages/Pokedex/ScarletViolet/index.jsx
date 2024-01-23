@@ -15,13 +15,13 @@ export default () => {
         <div className="container">
           <PokemonBody>
             <Title>
-              <h1>Galar</h1>
+              <h1>Scarlet & Violet</h1>
               <p>
-                Essa pokedex representa a oitava geração de pokemons e todos
-                estão listados abaixo.
+                Essa pokedex representa a nona geração de pokemons e todos estão
+                listados abaixo.
               </p>
             </Title>
-            <PokemonList startPoke={810} endPoke={898} />
+            <PokemonList startPoke={906} endPoke={1010} />
           </PokemonBody>
         </div>
       </Background>

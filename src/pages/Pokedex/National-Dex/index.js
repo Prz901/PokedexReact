@@ -15,20 +15,20 @@ import NavBar from "../../Nav-Bar";
 export default () => {
   return (
     <>
-    <Container>
-      <NavBar />
-      <Background>
-        <div className="container">
-          <PokemonBody>
-            <Title>
-              <h1>National Pokedex</h1>
-            </Title>
-            <PokemonList startPoke={1} endPoke={898}/>
-          </PokemonBody>
-        </div>
-      </Background>
-      <FooterPage />
-    </Container>
+      <Container>
+        <NavBar />
+        <Background>
+          <div className="container">
+            <PokemonBody>
+              <Title>
+                <h1>National Pokedex</h1>
+              </Title>
+              <PokemonList startPoke={1} endPoke={1010} />
+            </PokemonBody>
+          </div>
+        </Background>
+        <FooterPage />
+      </Container>
     </>
   );
 };

@@ -7,6 +7,7 @@ export const Header = styled.div`
   background:linear-gradient(#3b3b3b, #202020);
   width: 100%;
   height: 180px;
+  cursor: pointer;
 
   > h1 {
     font-size: 45px;

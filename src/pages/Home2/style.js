@@ -26,7 +26,6 @@ export const Pokebola = styled.div`
   position:relative;
   z-index:0;
 
-
   .rectangle-red {
     width:500px;
     height: 200px;

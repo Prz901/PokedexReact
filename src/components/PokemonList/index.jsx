@@ -6,14 +6,8 @@ import { PokemonList, Load, ContentLoad } from "./style";
 import PokemonCard from "../PokemonCard/PokemonCard";
 
 export default ({ startPoke, endPoke }) => {
-  const [counter, setCounter] = useState(0);
   const [pokemons, setPokemons] = useState({});
   const [isLoad, setIsLoad] = useState(true);
-
-  async function fecthCounter() {
-    const { data } = await api.get("pokemon");
-    setCounter(data.count);
-  }
 
   async function fetchPokemons() {
     const pokemonList = [];
@@ -27,12 +21,8 @@ export default ({ startPoke, endPoke }) => {
   }
 
   useEffect(() => {
-    fecthCounter();
-  }, []);
-
-  useEffect(() => {
     fetchPokemons();
-  }, []);
+  });
 
   if (isLoad) {
     return (
