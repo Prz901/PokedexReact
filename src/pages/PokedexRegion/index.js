@@ -1,8 +1,8 @@
 import React from "react";
 
-import PokemonList from "../../../components/PokemonList";
-import FooterPage from "../../../components/Footer";
-
+import PokemonList from "../../components/PokemonList/index.jsx";
+import FooterPage from "../../components/Footer/index.jsx";
+import NavBar from "../Nav-Bar/index.js";
 
 import {
   Container,
@@ -11,10 +11,7 @@ import {
   Background
 } from "./style.js";
 
-import NavBar from "../../Nav-Bar";
-
-
-export default () => {
+export function PokedexRegion ({titlePokedex, subTitlePokedex, startPoke, endPoke}){
 
   return (
     <Container>
@@ -23,12 +20,12 @@ export default () => {
         <div className="container">
           <PokemonBody>
             <Title>
-              <h1>Alola Pokedex</h1>
+              <h1>{titlePokedex}</h1>
               <p>
-                Essa pokedex representa a sétima geração de pokemons e todos estão listados abaixo.
+                {subTitlePokedex}
               </p>
             </Title>
-            <PokemonList startPoke={722} endPoke={809} />
+            <PokemonList startPoke={startPoke} endPoke={endPoke} />
           </PokemonBody>
         </div>
       </Background>

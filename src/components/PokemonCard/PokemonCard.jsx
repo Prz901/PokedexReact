@@ -56,7 +56,7 @@ export default function PokemonCard({ pokemon }) {
           <Link to={{ pathname: `/pokemon/${id}` }}>{name}</Link>
         </p>
         <Types className="pokemon-types">
-          {types.map((type, index) => {
+          {types?.map((type, index) => {
             return (
               <span key={index} style={{ color: `${object[type.type.name]}` }}>
                 {type.type.name}

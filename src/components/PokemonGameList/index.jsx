@@ -25,7 +25,7 @@ export function PokemonGameList() {
 
   const gameImages = {
     red: "https://m.media-amazon.com/images/I/71aow5iRsfL._AC_UF1000,1000_QL80_.jpg",
-    blue: "https://www.ziliongames.com.br/banco_imagens/produtos/g/pokemon-blue-version-gameboy-color-seminovo1pvr.jpg",
+    blue: "https://sm.ign.com/t/ign_br/cover/p/pokemon-bl/pokemon-blue-version_9a3f.1200.jpg",
     yellow:
       "https://upload.wikimedia.org/wikipedia/pt/4/43/Pok%C3%A9mon_Yellow_cover.png",
     gold: "https://cdn-cosmos.bluesoft.com.br/products/45496690526",
@@ -42,7 +42,7 @@ export function PokemonGameList() {
     leafgreen:
       "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
     diamond:
-      "https://archives.bulbagarden.net/media/upload/thumb/6/69/Diamond_EN_boxart.jpg/1200px-Diamond_EN_boxart.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzWZIYuV2SM9k3H2T1G7zFmGCInoiwbROSBw&s",
     pearl: "https://m.media-amazon.com/images/I/61MM1UJWfeL.jpg",
     platinum:
       "https://upload.wikimedia.org/wikipedia/pt/8/8d/Pok%C3%A9mon_Platinum_cover.png",
